@@ -1,0 +1,15 @@
+<configuration>
+<appender name="fileAppender1" class="ch.qos.logback.core.FileAppender">
+    <file>c:/logs/kp-ws.log</file>
+    <append>true</append>
+    <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+        <layout class="com.example.demo.logging.MaskingPatternLayout">
+            <patternsProperty>(key=)|(address=)</patternsProperty>
+            <pattern>%d [%thread] %-5level %logger{35} - %msg%n</pattern>
+        </layout>
+    </encoder>
+</appender>
+<root level="DEBUG">
+    <appender-ref ref="fileAppender1" />
+</root>
+</configuration>

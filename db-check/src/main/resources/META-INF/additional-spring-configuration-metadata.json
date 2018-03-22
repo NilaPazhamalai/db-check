@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "google.geolocationApiKey",
+    "type": "java.lang.String",
+    "description": "A description for 'google.geolocationApiKey'"
+  },
+  {
+    "name": "google.geolocationApiUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'google.geolocationApiUrl'"
+  },
+  {
+    "name": "google.geolocationKeyParamValue",
+    "type": "java.lang.String",
+    "description": "A description for 'google.geolocationKeyParamValue'"
+  },
+  {
+    "name": "google.geolocationKeyParamKey",
+    "type": "java.lang.String",
+    "description": "A description for 'google.geolocationKeyParamKey'"
+  },
+  {
+    "name": "google.geolocationAddressParamKey",
+    "type": "java.lang.String",
+    "description": "A description for 'google.geolocationAddressParamKey'"
+  }
+]}
